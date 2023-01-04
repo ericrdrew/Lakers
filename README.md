@@ -8,7 +8,7 @@ Plot shows mid-range shooting percentages against the percent of shots a player 
 
 Final for loop adds the images onto the data points that were pulled from the getImage fn.
 
-Data used is lakersPerGame.csv and lakersShooting.csv.
+Data used:lakersPerGame.csv and lakersShooting.csv.
 
 Source(s):
 
