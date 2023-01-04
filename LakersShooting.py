@@ -6,11 +6,6 @@ LAKERS PLOTS
 """
 
 ############################################## LAKERS PLOT ###############################
-#create plot area
-fig, ax = plt.subplots()
-
-#set plot size
-fig.set_size_inches(7,5)
 
 lakers = pd.read_csv('lakersPerGame.csv')
 
@@ -29,7 +24,7 @@ lakers = lakers[lakers.Player != 'Jemerrio Jones']
 lakers = lakers[lakers.Player != 'Mason Jones']
 
 #add path column
-lakers['path'] = 'C:/Users/ericd/OneDrive - North Carolina State University/Desktop/WNBA Viz/Lakers/'+ lakers['Player']  + '.png'
+lakers['path'] = 'C:/Users/ericd/OneDrive - North Carolina State University/Desktop/PersonalProjects/Lakers/Headshots/'+ lakers['Player']  + '.png'
 
 
 #headshots
